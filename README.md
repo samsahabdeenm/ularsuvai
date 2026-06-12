@@ -17,8 +17,6 @@ UlarSuvai means **Ular** (dry / preserved) + **Suvai** (taste / flavor). The web
 
 - Single-page semantic HTML architecture.
 - Responsive premium Tamil heritage-inspired UI.
-- Header and footer use the compact original-style UlarSuvai logo asset, with relative paths for reliable loading.
-- Product-specific SVG visuals for the hero banner, Oorugai, Panai Porul, Uppukandam and Karuvadu sections.
 - Accessible navigation, skip link, ARIA labels and semantic sections.
 - JSON-LD for Organization, FoodEstablishment, WebSite and FAQPage.
 - Open Graph, Twitter Cards, canonical, robots meta, manifest, sitemap, humans.txt and llms.txt.
