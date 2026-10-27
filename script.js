@@ -16,6 +16,7 @@ if (menuToggle && navbar) {
     menuToggle.addEventListener("click", () => {
 
         navbar.classList.toggle("active");
+        menuToggle.setAttribute("aria-expanded", String(navbar.classList.contains("active")));
 
         const icon = menuToggle.querySelector("i");
 
@@ -51,6 +52,7 @@ navLinks.forEach((link) => {
         }
 
         if (menuToggle) {
+            menuToggle.setAttribute("aria-expanded", "false");
 
             const icon = menuToggle.querySelector("i");
 
