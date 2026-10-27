@@ -2,8 +2,8 @@ from pathlib import Path
 
 html = Path("index.html").read_text(encoding="utf-8")
 required = [
-    '<title>', 'name="description"', 'rel="canonical"', 'property="og:title"',
-    'name="twitter:card"', 'application/ld+json', 'id="products"', 'id="contact"',
+    '<title>', 'name="description"', 'rel="canonical"', 'property="og:title"', 'rel="icon"', 'property="og:image"',
+    'name="twitter:card"', 'application/ld+json', 'id="categories"', 'id="contact"',
     'Chicken Oorugai', 'Karuvadu', 'Uppukandam', 'Karuppatti', 'Panangarkandu'
 ]
 missing = [item for item in required if item not in html]
